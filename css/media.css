@@ -1,0 +1,27 @@
+
+/* media screen and () */
+@media screen and (max-width:571px) {
+
+    header{
+        display: none;
+    }
+    .header-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+        padding: 2em 0.5em;
+    }
+    .content-carts{
+
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:572px) {
+    
+    .header-mobile{
+        display: none;
+     }
+    
+}

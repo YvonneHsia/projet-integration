@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/unproduit.css">
+    <title>un produit Desktop en detail</title>
+</head>
+<body>
+    <!-- burger-navigator, logo a la gauche, 
+        button-Acces, button-panier a la droite -->
+    <div class="page">
+        <header>
+            <div class="header-gauche">
+                <img src="../icons/menu.svg" alt="menu" class="headeer-gauche-burger">
+                <img src="../icons/logo-noir.svg" alt="logo" class="header-gauche-logo">
+            </div>
+            <div class="header-droite">
+                <div class="header-droite-button">
+                    <button class="header-droite-button-avatar">Accès</button>
+                    <img src="../icons/avatar.svg" alt="avatar" class="header-droite-button-avatar">
+                </div>
+                <div class="header-droite-button">
+                    <button class="header-droite-button-panier">Panier</button>
+                    <img src="../icons/panier.svg" alt="panier" class="header-droite-button-panier">
+                </div>
+            </div>
+        </header>
+        <div class="header-mobile">
+            <img src="../icons/menu.svg" alt="menu" class="headeer-gauche-burger">
+            <img src="../icons/logo-noir.svg" alt="logo" class="header-gauche-logo">
+            <div>
+                <img src="../icons/avatar.svg" alt="avatar" class="header-droite-button-avatar">
+                <img src="../icons/panier.svg" alt="panier" class="header-droite-button-panier">
+            </div>
+        </div>
+        <hr>
+
+        <!-- content 
+        -gauche: 1-big-image en haut, 2-small-image en bas,
+         No-produit, price, description, button-panier -->
+        <div class="details">
+            <div class="details-left"> 
+                <div class="details-left-top">
+                    <img src="../images/RE2Cqqs.webp" alt="touchscreen">
+                </div> 
+                <div class="details-left-bottom">
+                    <img src="../images/RE4OSde.webp" alt="bluetooth">
+                    <img src="../images/RE4OUP3.webp" alt="pen">
+                </div>
+            </div>
+
+            <!-- 
+                -droit: navigator, icon-hear, icon-panier dans la meme ligne, 
+            -->
+            <div class="details-right">
+                
+                <div class="content-navi">
+                    <a href="../index.html"> Accueil</a>
+                    <p class="content-navi arrow">  </p>
+                    <a href="#"> Catégorie de produits</a>
+                    <p class="content-navi arrow">  </p>
+                    <a href="#"> Surface Pro X</a>
+                    <img src="../icons/coeur.svg" alt="coeur" class="details-right-img">
+                    <img src="../icons/panier.svg" alt="panier" />
+                </div>
+                
+                <div class="details-right-description">
+                    <h1>Surface Pro X</h1>
+                    <section>
+                        <h2><em>$ 1149.99</em></h2>
+                        <p>
+                            Meet the totally mobile Pro. Always with you, instantly ready, and designed to light up the best of Windows 11⁶. Keep up anywhere, at any angle, with a detachable Keyboard* with built-in Slim Pen storage and charging^—plus optional Gigabit LTE³ and all-day battery life, with up to 15 hours¹ of unplugged power.
+                        </p>
+                        <p>
+                            LTE devices are preloaded with Windows 10 and a free upgrade. Wi-Fi enabled devices are preloaded with Windows 11.
+                        </p>
+                        <div class="details-right-button">
+                            <button type="submit">Ajouter au panier</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
